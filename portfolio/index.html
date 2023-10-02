@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pranjal - Developer Portfolio</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: rgb(2, 48, 55);
+                color: white;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-around;
+                background-color: rgb(1, 28, 32);
+                margin-top: -1px;
+                height: 53px;
+                text-align: center;
+            }
+
+            nav ul {
+                margin-top: 12px;
+                display: flex;
+            }
+
+            nav ul li {
+                list-style: none;
+                margin-right: 44px;
+
+            }
+
+            .l {
+                font-size: 1.8rem;
+            }
+
+            .left {
+                margin-top: 59px;
+                font-size: 2.5rem;
+                align-content: center;
+            }
+
+            .right {
+                /* background-color: yellow; */
+            }
+
+            .sec>div {
+
+                width: 30%;
+            }
+
+            .sec {
+                color: white;
+                justify-content: space-around;
+                margin: 23px;
+                display: flex;
+                margin-bottom: 150px;
+
+            }
+
+            /* .sec div{
+            height: 231px;
+  background-color: black;
+  width: 501px;
+        } */
+            .first {
+                background-color: black;
+                display: flex;
+                margin: 70px
+            }
+
+            .right img {
+                width: 430px;
+                height: 269px;
+                margin-top: 23px;
+            }
+
+            .color {
+                color: yellow;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+            nav ul li :hover {
+                color: rgb(235, 181, 20);
+                font-size: 1.1rem;
+            }
+
+            #element {
+                color: yellow;
+
+            }
+
+            .sec2 {
+                max-width: 70vw;
+                margin: auto;
+                font-size: 1.8rem;
+            }
+
+            hr {
+                color: yellow;
+            }
+
+            .ex {
+                color: grey;
+                font-size: 1.1rem;
+            }
+
+            .box {
+                background-color: white;
+                height: 2px;
+                margin: 50px 0px;
+                width: 80vw;
+              display: flex;
+
+            }
+           
+            .sec2 .vertical  {
+                height: 95px;
+  width: 1px;
+  background-color: white;
+  margin: 10 80px;
+  margin: 0px 145px;
+  display: flex;
+            }
+            .vt{
+                position: relative;
+                top:75px;
+                width:150px;
+
+            }
+            .vc{
+                color: yellow;
+  font-size: 15px;
+  width: 540px;
+  display: flex;
+  margin-top: 147px;
+  margin-left: -110px;
+
+            }
+            .sec2 h1{
+font-size: 1.9rem;
+            }
+            .vertical img{
+                width: 24px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+  height: 29px;
+
+            }
+            .btn{
+                padding: 12px;
+                background: rgb(1, 28, 32);
+                color:white;
+                border: 2px solid white;
+                border-radius: 6px;
+               font-size: 14px;
+                cursor: pointer;
+            }
+        </style>
+        <header>
+            <nav>
+                <div class="l"> Pranjal's Portfolio</div>
+                <div class="r">
+                    <ul>
+                        <li> <a href="/"> Home</a></li>
+                        <li> <a href="/">About</a></li>
+                        <li> <a href="/">Services</a></li>
+                        <li> <a href="/">Repositories</a></li>
+                        <li> <a href="/"> Contact Me </a></li>
+
+
+
+
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="sec">
+            <div class="left"> Hey buddy , My name is
+                <span class="color">Pranjal</span>
+                and I am a Passionate
+
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="pic for port.png" alt="sorry">
+            </div>
+        </section>
+        <hr>
+        <section class="sec2">
+            <span class="ex">What I have Done so far</span>
+            <div> Past Experience</div>
+            <div class="box">
+                <div class="vertical">
+                    <img src="download.png" alt="">
+                    <div class="vt">
+                        Html Developer
+                    </div>
+                    <div class="vc">
+                        I have 4 months of HTML experience and am proficient in developing websites for a variety of purposes. 
+                    </div>
+                    <div class="vertical">
+                        <img src="css.png" alt="">
+                        <div class="vt">
+                            Css Developer
+                        </div>
+                        <div class="vc">
+                            I am proficient in using CSS to create complex layouts and designs. For example, I recently cloned the Amazon website, which has a complex and dynamic layout.
+                           
+                        </div>
+                        <div class="vertical">
+                            <img src="js.jpeg" alt="">
+                            <div class="vt">
+                                Javascript Developer
+                            </div>
+                            <div class="vc">
+                                I am able to use JavaScript to create interactive web pages and I am familiar with popular JavaScript libraries and frameworks. 
+                            
+
+                            
+                        </div>
+
+        </section>
+    </head>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Web  Designer.', 'Coder.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
